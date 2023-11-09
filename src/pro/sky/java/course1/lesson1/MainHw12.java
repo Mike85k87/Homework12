@@ -16,7 +16,11 @@ public class MainHw12 {
         System.out.println(voynaIMir.getAuthor().getName() + " " + voynaIMir.getAuthor().getSurname());
         System.out.println("Написал книгу " + voynaIMir.getNameOfBook() + " в " +
                 voynaIMir.getYearOfPublishing() + " году");
-
+        System.out.println(pushkin);
+        System.out.println(tolstoy);
+        System.out.println(ruslanILyudmila);
+        System.out.println(voynaIMir.equals(ruslanILyudmila));
+        System.out.println(ruslanILyudmila.hashCode());
 
     }
 }
